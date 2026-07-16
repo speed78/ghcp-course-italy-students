@@ -1,7 +1,20 @@
-# Lab 3
+# Lab 3 — Custom instructions
 
-Note: The .NET 10 project setup is the same... you know the drill by now
+## .github/copilot-instructions.md
 
-- Move the project specific context you created in lab 2 to the copilot-instructions.md file
-- Also add a custom instruction: Suffix each variable name with 'Copilot'
-- Make a simple prompt without the instructions you provided in both instruction filesss
+# Copilot instructions
+- .NET 10 project, C# language.
+- Write clean, maintainable code.
+
+
+## .github/instructions/sample.instructions.md
+
+---
+applyTo: '**/*.cs'
+---
+- Suffix each variable name with `Copilot`.
+
+
+## Verification prompt (new chat)
+
+Create a C# class that calculates the total of an order.
